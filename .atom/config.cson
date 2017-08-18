@@ -1,0 +1,88 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "35bfa3df-49db-4045-9863-2074a2c9d977"
+    js:
+      break_chained_methods: true
+      end_with_comma: true
+      jslint_happy: true
+      keep_array_indentation: true
+      keep_function_indentation: true
+      max_preserve_newlines: 100
+      wrap_line_length: 100
+  core:
+    disabledPackages: [
+      "linter-spell-ruby"
+      "linter-spell-javascript"
+      "linter-spell-html"
+      "linter-spell"
+    ]
+    followSymlinks: false
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 11
+  "exception-reporting":
+    userId: "2c571684-d0eb-0d2b-a3f4-2e77ae3d98fe"
+  "highlight-selected":
+    hideHighlightOnSelectedWord: true
+    lightTheme: true
+  linter: {}
+  "linter-eslint":
+    fixOnSave: true
+    lintHtmlFiles: true
+    rulesToSilenceWhileTyping: [
+      "no-trailing-spaces eol-last"
+    ]
+  "linter-spell":
+    spellPath: "/usr/local/bin/hunspell"
+  "linter-ui-default":
+    panelHeight: 69
+  narrow:
+    directionToOpen: "down"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+"atom-lint":
+  clang:
+    headerSearchPaths: [
+      "/path/to/include"
+      "/path2/to/include"
+    ]
+    mergeAtomLintConfigIntoAutoDiscoveredFlags: true
+    path: "/path/to/bin/clang"
+  coffeelint:
+    path: "/path/to/bin/coffeelint"
+  csslint:
+    path: "/path/to/bin/csslint"
+    rules:
+      errors: []
+      ignore: [
+        "adjoining-classes"
+      ]
+      warnings: []
+  erlc:
+    path: "/path/to/bin/erlc"
+  flake8:
+    configPath: "/path/to/your/config"
+    path: "/path/to/bin/flake8"
+  gc:
+    path: "/path/to/bin/go"
+  hlint:
+    path: "/path/to/bin/hlint"
+  ignoredNames: [
+    "tmp/**"
+  ]
+  jshint:
+    path: "/path/to/bin/jshint"
+  "puppet-lint":
+    path: "/path/to/bin/puppet-lint"
+  rubocop:
+    path: "/path/to/bin/rubocop"
+  rustc:
+    path: "/path/to/bin/rustc"
+  "scss-lint":
+    path: "/path/to/bin/scss-lint"
+  shellcheck:
+    path: "/path/to/bin/shellcheck"
+  showViolationMetadata: true
