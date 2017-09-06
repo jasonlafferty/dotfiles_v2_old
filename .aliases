@@ -150,3 +150,5 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+alias config='/usr/bin/git --git-dir=/Users/jason/.cfg/ --work-tree=/Users/jason'
