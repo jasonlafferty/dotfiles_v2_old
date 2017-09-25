@@ -20,9 +20,11 @@
     followSymlinks: false
     telemetryConsent: "limited"
   editor:
-    fontSize: 11
+    fontSize: 10
   "exception-reporting":
     userId: "2c571684-d0eb-0d2b-a3f4-2e77ae3d98fe"
+  "git-blame":
+    columnWidth: 343
   "highlight-selected":
     hideHighlightOnSelectedWord: true
     lightTheme: true
@@ -37,8 +39,19 @@
     spellPath: "/usr/local/bin/hunspell"
   "linter-ui-default":
     panelHeight: 69
+    showPanel: true
   narrow:
     directionToOpen: "down"
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      ".js"
+      ".jsx"
+    ]
   "tree-view":
     hideVcsIgnoredFiles: true
   welcome:
