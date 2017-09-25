@@ -30,5 +30,4 @@
   (flycheck-add-mode 'javascript-eslint 'web-mode)
 
   (global-flycheck-mode))
-
 (provide 'setup-flycheck)
